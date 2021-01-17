@@ -1,0 +1,102 @@
+* {
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, h3, footer {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 1.5em;
+    font-size: 3em;
+}
+
+button {
+    border-radius: .2em;
+    height: 3em;
+    font-size: 1em;
+    border-color: slategray;
+}
+
+#search-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search-bar {
+    width: 50%;
+    height: 3em;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    border-width: .1em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+#search-items {
+    flex-direction: row;
+}
+
+#results-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 3em;
+}
+
+.queen-profile {
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2em 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+img.profile-image {
+    width: 10em;
+    border-radius: 50%;
+    border: 2px greenyellow solid;
+    margin-top: .1em;
+    margin-bottom: .2em;
+}
+
+#results-section p {
+    text-align: center;
+    width: 9em;
+}
+#wrapper {
+    padding-bottom: 3em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    margin-bottom: 0;
+    background-color: #1acebd;
+}
+
+footer p {
+   padding-top: .5em;
+}
+
+#search-bar:focus {
+    outline-color: magenta; 
+}
+
+button:focus {
+    outline-color: magenta;
+}
